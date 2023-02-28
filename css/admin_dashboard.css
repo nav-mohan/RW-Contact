@@ -1,0 +1,41 @@
+#inbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.message-box{
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 0 10px 10px 0;
+    padding: 2%;
+
+}
+
+.message-date-box{
+    font-weight: 600;
+}
+
+.message-author-email-box{
+    font-weight: 600;
+    font-style: italic;
+}
+
+.message-author-name-box{
+    font-weight: 600;
+}
+
+.message-content-box{
+    font-size: medium;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.message-delete-button{
+    font-weight: 500;
+    font-size: small;
+}
