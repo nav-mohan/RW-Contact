@@ -1,7 +1,5 @@
 # Documentation of RW-Contact Plugin
 
-
-
 ## A function to override `contact.php` with `index.php` as the template to use
 - I used to use this overriding function but now that I have removed `contact.php` from the `template_direcotry` I 
 dont need this overriding function bbecause wordpress will always the `index.php` as the default template.
